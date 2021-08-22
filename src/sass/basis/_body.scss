@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 1px solid red;
+  box-sizing: border-box;
+}
+
+#body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  color: $main_txt_color;
+}
+
+.cont {
+  margin: 0 auto;
+  @include container-width_320 {
+    padding: 0 40px;
+  }
+  @include container-width_768 {
+  }
+  @include container-width_1200 {
+    padding: 0 105px;
+  }
+  @include container-width_1920 {
+    padding: 0 405px;
+    max-width: 1920px;
+  }
+}
+.section {
+  padding: 40px 0;
+  @include container-width_1200 {
+    padding: 65px 0;
+  }
+}

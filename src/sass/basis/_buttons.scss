@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+
+  padding: 13px 20px;
+  background-color: $btn_bgcolor;
+  border-radius: 50px;
+
+  // border-width: 0;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: $btn_txt_color;
+  @include container-max-width_768 {
+    margin-bottom: 22px;
+  }
+  @include container-width_1200 {
+    padding: 18px 30px;
+  }
+}

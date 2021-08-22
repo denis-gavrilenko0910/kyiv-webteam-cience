@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>kyiv webteam cience</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body id="body" class="body">
+    <header id="header" class="header">
+      <div class="header__cont">
+        <div class="wrapper__cont">
+          <h1 class="company__logo">
+            <a class="logo link" href="./index.html"
+              ><img
+                class="company__logo__img"
+                src="./img/logo.png"
+                alt="company logo"
+            /></a>
+          </h1>
+          <nav class="visually__hidden">
+            <ul class="visually__hidden">
+              <li class="visually__hidden"></li>
+            </ul>
+          </nav>
+          <h2 class="hero__text">
+            Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.
+          </h2>
+          <p class="hero__par">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            sagittis risus et diam euismod vestibulum. Fusce suscipit leo ornare
+            nulla ullamcorper, sed pellentesque libero ornare. Praesent egestas
+            rhoncus sagittis.
+          </p>
+          <a href="#contact__form" class="hero__btn btn">Book a meeting</a>
+        </div>
+        <picture class="man__picture__set">
+          <source
+            class="man__photo"
+            srcset="
+              ./img/man/dtop-hd/man-dtop-hd@1x.png,
+              ./img/man/dtop-hd/man-dtop-hd@2x.png 2x
+            "
+            type="image/png"
+            media="(min-width:1920px)"
+          />
+          <source
+            class="man__photo"
+            srcset="
+              ./img/man/dtop/man-dtop@1x.png,
+              ./img/man/dtop/man-dtop@2x.png 2x
+            "
+            type="image/png"
+            media="(min-width:1200px)"
+          />
+
+          <source
+            class="man__photo"
+            srcset="
+              ./img/man/mob/man-mob@1x.png,
+              ./img/man/mob/man-mob@2x.png 2x
+            "
+            type="image/png"
+            media="(max-width:767px)"
+          />
+          <img
+            class="man__photo"
+            src="./img/man/mob/man-mob@1x.png"
+            alt="man photo"
+            srcset="./img/man/mob/man-mob@2x.png 2x"
+          />
+        </picture>
+      </div>
+    </header>
+    <main>
+      <section class="section__one section">
+        <div class="cont flex-column">
+          <div class="sect__wrapper__cont">
+            <ul class="section__ul one ul">
+              <h3 class="section__headings headings">
+                Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.
+              </h3>
+              <li class="section__one_list list">
+                <p class="section__one_p par">
+                  Phasellus quis sapien ac ex eleifend viverra non vulputate mi.
+                  Praesent in sodales lacus, et vehicula ex. Pellentesque
+                  elementum eu nisl non posuere. Sed lobortis purus non tempor
+                  dapibus
+                </p>
+              </li>
+              <li class="section__one_list list">
+                <p class="section__one_p par">
+                  Sed nec iaculis leo, in luctus ipsum. Sed eu neque
+                  consectetur, mollis neque vel, ultrices quam. Donec
+                  ullamcorper consectetur lacinia. Praesent laoreet enim eget
+                  leo suscipit, at bibendum elit egestas. Cras euismod congue
+                  nunc id convallis.
+                </p>
+              </li>
+            </ul>
+            <picture class="sect__picture__set picture__set">
+              <source
+                class="sect__photo photo"
+                srcset="
+                  ./img/sect-one/dtop/img-side@1x.png,
+                  ./img/sect-one/dtop/img-side@2x.png 2x
+                "
+                type="image/png"
+                media="(min-width:1200px)"
+              />
+
+              <source
+                class="sect__photo photo"
+                srcset="
+                  ./img/sect-one/mob/img-side@1x.png,
+                  ./img/sect-one/mob/img-side@2x.png 2x
+                "
+                type="image/png"
+                media="(max-width:767px)"
+              />
+              <img
+                class="sect__photo photo"
+                src="./img/sect-one/mob/img-side@1x.png"
+                alt="man photo"
+                srcset="./img/sect-one/mob/img-side@2x.png"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="section__two section">
+        <div class="cont">
+          <h3 class="section__headings video__heading text-center headings">
+            Lorem ipsum dolor sit amet
+          </h3>
+          <iframe
+            class="iframe"
+            src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            preload="metadata"
+            controls="controls"
+          ></iframe>
+          <ul class="section__two_ul ul">
+            <li class="section__two_list list">
+              <svg class="section__two__item" width="50" height="50">
+                <use href="./img/svg/sprite.svg#icon_circle"></use>
+              </svg>
+              <h4 class="section__two__elements headings">Service A</h4>
+              <p class="section__two_p par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+                gravida arcu, ac tempor neque. Maecenas massa sem, tincidunt a
+                quam ut, tincidunt viverra purus suspendisse congue.
+              </p>
+            </li>
+            <li class="section__two_list list">
+              <svg class="section__two__item" width="50" height="50">
+                <use href="./img/svg/sprite.svg#icon_eraser"></use>
+              </svg>
+              <h4 class="section__two__elements headings">Service B</h4>
+              <p class="section__two_p par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+                gravida arcu, ac tempor neque. Maecenas massa sem, tincidunt a
+                quam ut, tincidunt viverra purus suspendisse congue.
+              </p>
+            </li>
+            <li class="section__two_list list">
+              <svg class="section__two__item" width="50" height="50">
+                <use href="./img/svg/sprite.svg#icon_arrow"></use>
+              </svg>
+              <h4 class="section__two__elements headings">Service C</h4>
+              <p class="section__two_p par">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
+                gravida arcu, ac tempor neque. Maecenas massa sem, tincidunt a
+                quam ut, tincidunt viverra purus suspendisse congue.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section__three section">
+        <picture class="sect__picture__set picture__set">
+          <source
+            class="sect__photo photo"
+            srcset="
+              ./img/sect-three/dtop-hd/img-side@1x.png,
+              ./img/sect-three/dtop-hd/img-side@2x.png 2x
+            "
+            type="image/png"
+            media="(min-width:1920px)"
+          />
+          <source
+            class="sect__photo photo"
+            srcset="
+              ./img/sect-three/dtop/img-side@1x.png,
+              ./img/sect-three/dtop/img-side@2x.png 2x
+            "
+            type="image/png"
+            media="(min-width:768px)"
+          />
+
+          <source
+            class="sect__photo photo"
+            srcset="
+              ./img/sect-three/mob/img-side@1x.png,
+              ./img/sect-three/mob/img-side@2x.png 2x
+            "
+            type="image/png"
+            media="(max-width:767px)"
+          />
+          <img
+            class="sect__photo photo"
+            src="./img/sect-three/mob/img-side@1x.png"
+            alt="man photo"
+            srcset="./img/sect-three/mob/img-side@2x.png"
+          />
+        </picture>
+        <div class="orange">
+          <div class="wrapper">
+            <ul class="section__ul three ul">
+              <li class="section__one_list list"></li>
+              <h3 class="section__headings headings">
+                Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.
+              </h3>
+              <li class="section__one_list list">
+                <p class="section__one_p par">
+                  Phasellus quis sapien ac ex eleifend viverra non vulputate mi.
+                  Praesent in sodales lacus, et vehicula ex. Pellentesque
+                  elementum eu nisl non posuere. Sed lobortis purus non tempor
+                  dapibus
+                </p>
+              </li>
+              <li class="section__one_list list">
+                <p class="section__one_p par">
+                  Sed nec iaculis leo, in luctus ipsum. Sed eu neque
+                  consectetur, mollis neque vel, ultrices quam. Donec
+                  ullamcorper consectetur lacinia. Praesent laoreet enim eget
+                  leo suscipit, at bibendum elit egestas. Cras euismod congue
+                  nunc id convallis.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section__four">
+        <div class="cont">
+          <h3 class="section__headings text-center headings">
+            Lorem ipsum dolor sit amet
+          </h3>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <li class="slider__list list">
+                  <p class="slider__p p">
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Duis id sagittis urna, sit amet rhoncus orci. Maecenas in
+                    diam ac augue ultricies.“
+                  </p>
+                  <p class="slider__item p">Alyssa Aitken</p>
+                </li>
+              </div>
+              <div class="carousel-item">
+                <li class="slider__list list">
+                  <p class="slider__p p">
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Duis id sagittis urna, sit amet rhoncus orci. Maecenas in
+                    diam ac augue ultricies.“
+                  </p>
+                  <p class="slider__item p">Alyssa Aitken</p>
+                </li>
+              </div>
+              <div class="carousel-item">
+                <li class="slider__list list">
+                  <p class="slider__p p">
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Duis id sagittis urna, sit amet rhoncus orci. Maecenas in
+                    diam ac augue ultricies.“
+                  </p>
+                  <p class="slider__item p">Alyssa Aitken</p>
+                </li>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- <ul class="slider__ul ul">
+            
+          </ul> -->
+          <div class="clients__cont">
+            <svg class="section__two__item" width="160" height="48">
+              <use href="./img/svg/sprite.svg#client-logo1"></use>
+            </svg>
+            <svg class="section__two__item" width="83" height="81">
+              <use href="./img/svg/sprite.svg#client-logo2"></use>
+            </svg>
+            <svg class="section__two__item" width="50" height="50">
+              <use href="./img/svg/sprite.svg#client-logo3"></use>
+            </svg>
+            <svg class="section__two__item" width="50" height="50">
+              <use href="./img/svg/sprite.svg#client-logo4"></use>
+            </svg>
+            <svg class="section__two__item" width="50" height="50">
+              <use href="./img/svg/sprite.svg#client-logo5"></use>
+            </svg>
+            <svg class="section__two__item" width="50" height="50">
+              <use href="./img/svg/sprite.svg#client-logo6"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <form id="contact__form" class="contact__form" action="">
+        <label for="">
+          <input type="text" />
+        </label>
+        <label for="">
+          <input type="text" />
+        </label>
+        <label for="">
+          <input type="text" />
+        </label>
+        <label for="">
+          <input type="text" />
+        </label>
+      </form>
+      <div class="copyright__cont">
+        <span>&copy</span>
+        <span class="salmiac">2020 Salmiac</span>
+        <span>All Rights Reserved</span>
+      </div>
+    </footer>
+  </body>
+</html>

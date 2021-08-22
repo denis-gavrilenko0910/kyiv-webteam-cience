@@ -1,0 +1,25 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+}
+
+span {
+  display: inline-block;
+}
+// .footer {
+
+// }
+.copyright__cont {
+  position: relative;
+}
+.salmiac::after {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  // right: 0;
+  top: 0;
+  width: 1px;
+  height: 16px;
+}

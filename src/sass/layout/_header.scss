@@ -1,0 +1,125 @@
+.header {
+  padding-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgba(68, 106, 130, 0.85) 0%,
+      rgba(68, 106, 130, 0.85) 100%
+    ),
+    url('./img/bg/bg-mob@1x.png');
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(68, 106, 130, 0.85) 0%,
+        rgba(68, 106, 130, 0.85) 100%
+      ),
+      url('./img/bg/bg-mob@2x.png');
+  }
+  @include container-width_1200 {
+    background-attachment: fixed;
+    background-image: linear-gradient(
+        rgba(68, 106, 130, 0.85) 0%,
+        rgba(68, 106, 130, 0.85) 100%
+      ),
+      url('./img/bg/bg-dtop@1x.png');
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(68, 106, 130, 0.85) 0%,
+          rgba(68, 106, 130, 0.85) 100%
+        ),
+        url('./img/bg/bg-dtop@2x.png');
+    }
+  }
+  @include container-width_1920 {
+    background-image: linear-gradient(
+        rgba(68, 106, 130, 0.85) 0%,
+        rgba(68, 106, 130, 0.85) 100%
+      ),
+      url('./img/bg/bg-dtop-hd@1x.png');
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(68, 106, 130, 0.85) 0%,
+          rgba(68, 106, 130, 0.85) 100%
+        ),
+        url('./img/bg/bg-dtop-hd@2x.png');
+    }
+  }
+}
+// visually__hidden nav menu for semantic reason
+.visually__hidden {
+  visibility: hidden;
+  font-size: 0.01px;
+  width: 0.001px;
+}
+.header__cont {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+
+  /* or 125% */
+
+  color: $sec_txt_color;
+  margin: 0 auto;
+  @include container-width_320 {
+    padding: 0 15px;
+  }
+  @include container-width_568 {
+    display: flex;
+  }
+
+  @include container-width_1200 {
+    padding: 0 105px;
+  }
+  @include container-width_1920 {
+    padding: 0 405px;
+    max-width: 1920px;
+  }
+}
+.wrapper__cont {
+  @include container-width_568 {
+    width: 50%;
+  }
+}
+// h1 tag company logo
+.company__logo {
+  display: inline-block;
+}
+.company__logo__img {
+  display: inline-block;
+  width: 50px;
+  height: 64px;
+  @include container-width_1200 {
+    width: 85px;
+    height: 110px;
+  }
+}
+.hero__text {
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: inherit;
+}
+.hero__par {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: inherit;
+  letter-spacing: -0.09px;
+  line-height: 24px;
+}
+
+.man__photo {
+  display: block;
+  width: 176px;
+  @include container-max-width_768 {
+    margin: auto;
+  }
+  @include container-width_1200 {
+    width: 358px;
+  }
+}

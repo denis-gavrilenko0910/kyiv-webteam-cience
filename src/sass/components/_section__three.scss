@@ -1,0 +1,23 @@
+.section__three {
+  padding-top: 0;
+  @include container-width_768 {
+    display: flex;
+  }
+}
+// section two ul list
+.three {
+  color: #ffffff;
+  margin-left: auto;
+
+  @include container-width_1200 {
+  }
+  @include container-width_1920 {
+    padding: 0 105px;
+  }
+}
+.orange {
+  background-color: $accent_bgcolor;
+  @include container-width_768 {
+    width: 50%;
+  }
+}

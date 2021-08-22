@@ -1,0 +1,7 @@
+.carousel-item {
+  @include container-width_768 {
+    width: 350px;
+  }
+}
+.clients__cont {
+}
