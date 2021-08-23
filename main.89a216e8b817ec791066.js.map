@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./index.js"],"names":[],"mappings":"kHAAA,6B","file":"main.89a216e8b817ec791066.js","sourcesContent":["import './main.scss';\r\nimport BSN from 'bootstrap.native';\r\n"],"sourceRoot":""}
